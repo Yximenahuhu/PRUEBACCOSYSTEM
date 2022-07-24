@@ -1,0 +1,31 @@
+{
+  "996a0038-d136-4a46-aaad-84c855351578": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "bypassConsent": true,
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/ProductosXimenaHidalgo": {
+        "dataSources": {
+          "Ordenes De Producto": {
+            "tableName": "c8940682-ce27-41a4-a2f1-cdb90f89b8dd"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Ordenes De Producto"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "996a0038-d136-4a46-aaad-84c855351578"
+  }
+}

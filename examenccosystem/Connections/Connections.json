@@ -1,0 +1,68 @@
+{
+  "23923763-d59b-41c1-b020-02d2411a4ef0": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "bypassConsent": true,
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/ProductosXimenaHidalgo": {
+        "dataSources": {
+          "Documentos": {
+            "tableName": "0d6fd295-55a6-4e27-bb96-498b74446dd3"
+          },
+          "Ordenes De Producto": {
+            "tableName": "c8940682-ce27-41a4-a2f1-cdb90f89b8dd"
+          },
+          "Registro De Producto": {
+            "tableName": "33efb050-b116-440f-96b5-13a1ca7a1aee"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Ordenes De Producto",
+      "Registro De Producto",
+      "Documentos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "23923763-d59b-41c1-b020-02d2411a4ef0"
+  },
+  "2929c6a3-ed94-4f57-b379-f32fb3a84c4a": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "bypassConsent": true,
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/ProductosXimenaHidalgo": {
+        "dataSources": {
+          "Registro De Producto Ok": {
+            "tableName": "33efb050-b116-440f-96b5-13a1ca7a1aee"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Registro De Producto Ok"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2929c6a3-ed94-4f57-b379-f32fb3a84c4a"
+  }
+}

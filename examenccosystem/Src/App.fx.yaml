@@ -1,0 +1,12 @@
+App As appinfo:
+    BackEnabled: =false
+
+    SharePointIntegration As hostControl.SharePointHostControlVariant:
+        DataSource: =[@'Registro De Producto Ok']
+        OnCancel: =ResetForm(SharePointForm1)
+        OnEdit: =EditForm(SharePointForm1)
+        OnNew: =NewForm(SharePointForm1)
+        OnSave: =SubmitForm(SharePointForm1)
+        OnView: =ViewForm(SharePointForm1)
+        SelectedHidden: =LookUp([@'Registro De Producto Ok'], ID = Self.SelectedListItemID)
+
